@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги - СПОРТИК</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+    <button class="burger-btn" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <a href="main.html"><img src="logo.PNG" style="height: 50px"></a>
+    </header>
+
+    <div class="mobile-nav">
+        <button class="mobile-nav-close" aria-label="Закрыть меню"></button>
+        
+        <div class="mobile-nav-header">
+            <span class="logo-text"><a href="main.html"><img src="logo.png" style="height:50px"></a></span>
+        </div>
+        <ul class="mobile-nav-links">
+            <li><a href="aboutUs.html">О НАС</a></li>
+            <li><a href="galery.html">ГАЛЕРЕЯ</a></li>
+            <li><a href="schedule.html">РАСПИСАНИЕ</a></li>
+            <li><a href="coaches.html">ТРЕНЕРА</a></li>
+            <li><a href="services.html">УСЛУГИ</a></li>
+            <li><a href="contacts.html">КОНТАКТНЫЕ ДАННЫЕ</a></li>
+        </ul>
+    </div>
+
+    <nav>
+        <div class="links">
+            <a href="main.html"><img src="logo.PNG" style="height: 50px"></a>
+            <a href="aboutUs.html">О НАС</a>
+            <a href="galery.html">ГАЛЕРЕЯ</a>
+            <a href="schedule.html">РАСПИСАНИЕ</a>
+            <a href="coaches.html">ТРЕНЕРА</a>
+            <a href="services.html" class="active">УСЛУГИ</a>
+            <a href="contacts.html">КОНТАКТНЫЕ ДАННЫЕ</a>
+        </div>
+    </nav>
+
+    <div class="mainContainer">
+        <h1>УСЛУГИ</h1>
+        
+        <div class="services-list">
+            <div class="service-item">
+                <div class="service-info">
+                    <h3 class="service-title">Wellness-зона восстановления</h3>
+                    <p class="service-desc">Сауна, хамам, массаж для восстановления мышц</p>
+                </div>
+                <button class="details-btn" data-modal="modal-1">ПОДРОБНЕЕ</button>
+            </div>
+
+            <div class="service-item">
+                <div class="service-info">
+                    <h3 class="service-title">Фитнес-кафе и смузи-бар</h3>
+                    <p class="service-desc">Смузи, протеин, кофе и полезные снеки</p>
+                </div>
+                <button class="details-btn" data-modal="modal-2">ПОДРОБНЕЕ</button>
+            </div>
+
+            <div class="service-item">
+                <div class="service-info">
+                    <h3 class="service-title">Функциональный тренинг с уникальным инвентарём</h3>
+                    <p class="service-desc">Канаты, полусферы, покрышки для силы и координации</p>
+                </div>
+                <button class="details-btn" data-modal="modal-3">ПОДРОБНЕЕ</button>
+            </div>
+
+            <div class="service-item">
+                <div class="service-info">
+                    <h3 class="service-title">Анализ состава тела и нутрициология</h3>
+                    <p class="service-desc">Замер жира/мышц и консультация по питанию</p>
+                </div>
+                <button class="details-btn" data-modal="modal-4">ПОДРОБНЕЕ</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-1" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 class="modal-title">Wellness-зона восстановления</h3>
+            <p class="modal-text">После интенсивной тренировки нужен отдых. Наша wellness-зона - это финская сауна (90-100°C), мягкий хаммам (45-55°C, высокая влажность) и профессиональный массаж (спортивный, классический, расслабляющий).</p>
+        </div>
+    </div>
+
+    <div id="modal-2" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 class="modal-title">Фитнес-кафе и смузи-бар</h3>
+            <p class="modal-text">Здесь вы сможете пополнить запас энергии и восстановить баланс нутриентов. В меню: свежие смузи на растительной и молочной основе, протеиновые коктейли, полезные снеки без сахара, ароматный кофе и травяные чаи.</p>
+        </div>
+    </div>
+
+    <div id="modal-3" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 class="modal-title">Функциональный тренинг с уникальным инвентарём</h3>
+            <p class="modal-text">Зона для тех, кто хочет развить выносливость, координацию и взрывную силу. Доступен профессиональный инвентарь: канаты для кроссфита, баланс-полусферы, тяжелые покрышки, TRX-петли и гиревой набор.</p>
+        </div>
+    </div>
+
+    <div id="modal-4" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 class="modal-title">Анализ состава тела и нутрициология</h3>
+            <p class="modal-text">Точные измерения на профессиональном биоимпедансном анализаторе. Вы получите данные о соотношении жира, мышц и воды. На основе результатов наш нутрициолог составит индивидуальный план питания для достижения ваших целей.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerText">SPORTIC Copiright Reserved</div>
+        <div class="footerText">© 2007 - 2026 Все права защищены.</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея - СПОРТИК</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+    <button class="burger-btn" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <a href="main.html"><img src="logo.PNG" style="height: 50px"></a>
+    </header>
+
+    <div class="mobile-nav">
+        <button class="mobile-nav-close" aria-label="Закрыть меню"></button>
+        
+        <div class="mobile-nav-header">
+            <span class="logo-text"><a href="main.html"><img src="logo.png" style="height:50px"></a></span>
+        </div>
+        <ul class="mobile-nav-links">
+            <li><a href="aboutUs.html">О НАС</a></li>
+            <li><a href="galery.html">ГАЛЕРЕЯ</a></li>
+            <li><a href="schedule.html">РАСПИСАНИЕ</a></li>
+            <li><a href="coaches.html">ТРЕНЕРА</a></li>
+            <li><a href="services.html">УСЛУГИ</a></li>
+            <li><a href="contacts.html">КОНТАКТНЫЕ ДАННЫЕ</a></li>
+        </ul>
+    </div>
+    
+    <nav>
+        <div class="links">
+            <a href="main.html"><img src="logo.PNG" style="height: 50px"></a>
+            <a href="aboutUs.html">О НАС</a>
+            <a href="galery.html" class="active">ГАЛЕРЕЯ</a>
+            <a href="schedule.html">РАСПИСАНИЕ</a>
+            <a href="coaches.html">ТРЕНЕРА</a>
+            <a href="services.html">УСЛУГИ</a>
+            <a href="contacts.html">КОНТАКТНЫЕ ДАННЫЕ</a>
+        </div>
+    </nav>
+
+    <div class="mainContainer">
+        <h1>ГАЛЕРЕЯ</h1>
+        <div class="imgGaleryContainer">
+            <div class="imgGaleryContainerItem"><img src="img/galery/photo1.jpg" alt="Фото 1"></div>
+            <div class="imgGaleryContainerItem"><img src="img/galery/photo2.jpg" alt="Фото 2"></div>
+            <div class="imgGaleryContainerItem"><img src="img/galery/photo3.jpg" alt="Фото 3"></div>
+            <div class="imgGaleryContainerItem"><img src="img/galery/photo4.jpg" alt="Фото 4"></div>
+            <div class="imgGaleryContainerItem"><img src="img/galery/photo5.jpg" alt="Фото 5"></div>
+            <div class="imgGaleryContainerItem"><img src="img/galery/photo6.jpg" alt="Фото 6"></div>
+            <div class="imgGaleryContainerItem"><img src="img/galery/photo7.jpg" alt="Фото 7"></div>
+            <div class="imgGaleryContainerItem"><img src="img/galery/photo8.jpg" alt="Фото 8"></div>
+            <div class="imgGaleryContainerItem"><img src="img/galery/photo9.jpg" alt="Фото 9"></div>
+            <div class="imgGaleryContainerItem"><img src="img/galery/photo10.jpg" alt="Фото 10"></div>
+            <div class="imgGaleryContainerItem"><img src="img/galery/photo11.jpg" alt="Фото 11"></div>
+            <div class="imgGaleryContainerItem"><img src="img/galery/photo12.jpg" alt="Фото 12"></div>
+            <div class="imgGaleryContainerItem"><img src="img/galery/photo13.jpg" alt="Фото 13"></div>
+            <div class="imgGaleryContainerItem"><img src="img/galery/photo14.jpg" alt="Фото 14"></div>
+            <div class="imgGaleryContainerItem"><img src="img/galery/photo15.jpg" alt="Фото 15"></div>
+        </div>
+    </div>
+
+    <div id="lightboxModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="lightboxImg">
+    </div>
+
+    <footer>
+        <div class="footerText">SPORTIC Copiright Reserved</div>
+        <div class="footerText">© 2007 - 2026 Все права защищены.</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тренера - СПОРТИК</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+    <button class="burger-btn" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <a href="main.html"><img src="logo.PNG" style="height: 50px"></a>
+    </header>
+
+    <div class="mobile-nav">
+        <button class="mobile-nav-close" aria-label="Закрыть меню"></button>
+        
+        <div class="mobile-nav-header">
+            <span class="logo-text"><a href="main.html"><img src="logo.png" style="height:50px"></a></span>
+        </div>
+        <ul class="mobile-nav-links">
+            <li><a href="aboutUs.html">О НАС</a></li>
+            <li><a href="galery.html">ГАЛЕРЕЯ</a></li>
+            <li><a href="schedule.html">РАСПИСАНИЕ</a></li>
+            <li><a href="coaches.html">ТРЕНЕРА</a></li>
+            <li><a href="services.html">УСЛУГИ</a></li>
+            <li><a href="contacts.html">КОНТАКТНЫЕ ДАННЫЕ</a></li>
+        </ul>
+    </div>
+
+    <nav>
+        <div class="links">
+            <a href="main.html"><img src="logo.PNG" style="height: 50px"></a>
+            <a href="aboutUs.html">О НАС</a>
+            <a href="galery.html">ГАЛЕРЕЯ</a>
+            <a href="schedule.html">РАСПИСАНИЕ</a>
+            <a href="coaches.html" class="active">ТРЕНЕРА</a>
+            <a href="services.html">УСЛУГИ</a>
+            <a href="contacts.html">КОНТАКТНЫЕ ДАННЫЕ</a>
+        </div>
+    </nav>
+
+    <div class="mainContainer">
+        <h1>ТРЕНЕРА</h1>
+        
+        <div class="coaches-grid">
+            <div class="coach-card">
+                <div class="coach-image">
+                    <img src="img\coaches\9e32db62777211eea1d07a2f0d1382ba_upscaled.jpg" alt="Иванова Жанна">
+                </div>
+                <div class="coach-info">
+                    <div class="coach-name">Иванова Жанна</div>
+                    <div class="coach-title">Заслуженный тренер</div>
+                </div>
+            </div>
+
+            <div class="coach-card">
+                <div class="coach-image">
+                    <img src="img\coaches\img_1884.jpg" alt="Чумаев Карапет">
+                </div>
+                <div class="coach-info">
+                    <div class="coach-name">Чумаев Карапет</div>
+                    <div class="coach-title">Мастер спорта по борьбе</div>
+                </div>
+            </div>
+
+            <div class="coach-card">
+                <div class="coach-image">
+                    <img src="img\coaches\lvu60pmpysgewd7i1rdh54j5dujkehth.jpg" alt="Султанов Аскар">
+                </div>
+                <div class="coach-info">
+                    <div class="coach-name">Султанов Аскар</div>
+                    <div class="coach-title">Чемпион мира по боксу</div>
+                </div>
+            </div>
+
+            <div class="coach-card">
+                <div class="coach-image">
+                    <img src="img\coaches\trener-vr-691d786595fed012412911.jpg" alt="Тепличная Варвара">
+                </div>
+                <div class="coach-info">
+                    <div class="coach-name">Тепличная Варвара</div>
+                    <div class="coach-title">Старший преподаватель Йоги</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerText">SPORTIC Copiright Reserved</div>
+        <div class="footerText">© 2007 - 2026 Все права защищены.</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
